@@ -67,7 +67,6 @@
   flex-direction: column;
   gap: 9px;
   width: -moz-min-content;
-  width: min-content;
   text-align: start;
   margin: 0 43.1%;
 }
@@ -88,7 +87,7 @@
   height: 3px;
   width: 0%;
   background-color: var(--text-color);
-  transition: width 0.4s ease-in-out; 
+  transition: width 0.4s ease-in-out;
 }
 
 .theme-menu__item:hover:after,
