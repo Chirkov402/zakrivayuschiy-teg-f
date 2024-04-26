@@ -40,7 +40,7 @@
   margin: 100px auto;
   background: var(--header-background);
   border: 2px solid var(--stroke-color);
-  padding: 136px 0 20px;
+  padding: 136px 0 23px;
 }
 
 @media (width <= 375px) {
@@ -65,7 +65,7 @@
   font-size: 14px;
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 12px;
   width: -moz-min-content;
   text-align: start;
   margin: 0 45.1%;
@@ -79,21 +79,6 @@
 
 .theme-menu__item {
   position: relative;
-}
-
-.theme-menu__item::after {
-  display: block;
-  content: "";
-  height: 3px;
-  width: 0%;
-  background-color: var(--text-color);
-  transition: width 0.4s ease-in-out;
-}
-
-.theme-menu__item:hover:after,
-.theme-menu__item:focus:after {
-  width: 100%;
-  opacity: 0.6;
 }
 
 .button {
@@ -141,7 +126,7 @@
 
 .save-button {
   padding: 15px 20px;
-  margin: 50px auto;
+  margin: 50px auto 105px;
   display: flex;
   gap: 8px;
   align-items: center;
