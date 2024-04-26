@@ -93,6 +93,7 @@
 .theme-menu__item:hover:after,
 .theme-menu__item:focus:after {
   width: 100%;
+  opacity: 0.6;
 }
 
 .button {
