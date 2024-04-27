@@ -4,6 +4,7 @@
   --background-color: #d3d3d3;
   --background-color-start: #e7e7e7;
   --background-color-end: #1a1a1a;
+  --background-color-additionally: rgba(0, 0, 0, 0);
   --title-font-weight: "wght" 700;
   --text-font-weight: "wght" 400;
   --header-background: var(--page-background);
@@ -18,6 +19,7 @@
   --background-color: var(--page-background);
   --background-color-start: #007f0c;
   --background-color-end: #004306;
+  --background-color-additionally: rgba(0, 0, 0, 0);
   --title-font-weight: "wght" 785;
   --text-font-weight: "wght" 465;
   --header-background: var(--page-background);
@@ -33,6 +35,7 @@
     --background-color: #d3d3d3;
     --background-color-start: #e7e7e7;
     --background-color-end: #1a1a1a;
+    --background-color-additionally: rgba(0, 0, 0, 0);
     --title-font-weight: "wght" 700;
     --text-font-weight: "wght" 400;
     --header-background: var(--page-background);
@@ -49,6 +52,7 @@
     --background-color: var(--page-background);
     --background-color-start: #007f0c;
     --background-color-end: #004306;
+    --background-color-additionally: rgba(0, 0, 0, 0);
     --title-font-weight: "wght" 785;
     --text-font-weight: "wght" 465;
     --header-background: var(--page-background);
